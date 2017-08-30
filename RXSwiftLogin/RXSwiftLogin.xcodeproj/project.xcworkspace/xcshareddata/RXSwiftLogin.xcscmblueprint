@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B1AC1BA92FE2B19F797A4AAF2CA99B911DDBE10B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BA762D253F0ADA9CD57F9C880B289ABDAA640B0B" : 9223372036854775807,
+    "B1AC1BA92FE2B19F797A4AAF2CA99B911DDBE10B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "85CAFFF6-E2E2-4A14-A700-61223DC50689",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BA762D253F0ADA9CD57F9C880B289ABDAA640B0B" : "",
+    "B1AC1BA92FE2B19F797A4AAF2CA99B911DDBE10B" : "RXSwiftLogin\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RXSwiftLogin",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RXSwiftLogin\/RXSwiftLogin.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KlayThompson\/RXSwiftLogin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1AC1BA92FE2B19F797A4AAF2CA99B911DDBE10B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KlayThompson\/RXSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BA762D253F0ADA9CD57F9C880B289ABDAA640B0B"
+    }
+  ]
+}
