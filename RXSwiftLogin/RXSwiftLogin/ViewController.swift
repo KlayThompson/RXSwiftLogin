@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import RxCocoa
+import RxSwift
+
 
 class ViewController: UIViewController {
 
@@ -26,11 +29,29 @@ class ViewController: UIViewController {
     @IBOutlet weak var secondPasswordTipLabel: UILabel!
     
     
+    let disposeBag = DisposeBag()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let viewModel = RegisterViewModel()
+        
+        usernameTextField.rx
+            .text
+            .orEmpty
+            .bind(to: viewModel.username)
+            .addDisposableTo(disposeBag)
+        
+        viewModel.usernameUseable
+            .bind(to: usernameTipLabel.rx.checkResult)
+            .addDisposableTo(disposeBag)
+        viewModel.usernameUseable
+            .bind(to: passwordTextField.rx.inpuEnabled)
+            .addDisposableTo(disposeBag)
     }
 
+    /// 点击注册按钮
     @IBAction func registerButtonPress(_ sender: Any) {
     }
 
