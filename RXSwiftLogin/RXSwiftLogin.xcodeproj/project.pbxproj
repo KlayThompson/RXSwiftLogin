@@ -17,6 +17,7 @@
 		3BC4D1241F56B5A300556ED1 /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D1231F56B5A300556ED1 /* protocol.swift */; };
 		3BC4D1261F56B63900556ED1 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D1251F56B63900556ED1 /* CheckBox.swift */; };
 		3BC4D1281F57A66500556ED1 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D1271F57A66500556ED1 /* RegisterViewModel.swift */; };
+		3BC4D12A1F59037100556ED1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D1291F59037100556ED1 /* Service.swift */; };
 		E1A6A84CE6DAAC394D088DBF /* Pods_RXSwiftLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916CEE66828717D5A60D996 /* Pods_RXSwiftLogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		3BC4D1231F56B5A300556ED1 /* protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
 		3BC4D1251F56B63900556ED1 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		3BC4D1271F57A66500556ED1 /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		3BC4D1291F59037100556ED1 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		4214F4FADE83925F15382AF3 /* Pods-RXSwiftLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwiftLogin/Pods-RXSwiftLogin.release.xcconfig"; sourceTree = "<group>"; };
 		7916CEE66828717D5A60D996 /* Pods_RXSwiftLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 				3BC4D1231F56B5A300556ED1 /* protocol.swift */,
 				3BC4D1251F56B63900556ED1 /* CheckBox.swift */,
 				3BC4D1271F57A66500556ED1 /* RegisterViewModel.swift */,
+				3BC4D1291F59037100556ED1 /* Service.swift */,
 				3B6C179D1F56A07300C65791 /* Main.storyboard */,
 				3B6C17A01F56A07300C65791 /* Assets.xcassets */,
 				3B6C17A21F56A07300C65791 /* LaunchScreen.storyboard */,
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BC4D1201F56AC2000556ED1 /* LoginViewController.swift in Sources */,
+				3BC4D12A1F59037100556ED1 /* Service.swift in Sources */,
 				3B6C179C1F56A07300C65791 /* ViewController.swift in Sources */,
 				3BC4D1281F57A66500556ED1 /* RegisterViewModel.swift in Sources */,
 				3BC4D1261F56B63900556ED1 /* CheckBox.swift in Sources */,

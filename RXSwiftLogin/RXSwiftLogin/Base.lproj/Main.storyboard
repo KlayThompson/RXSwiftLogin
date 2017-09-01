@@ -140,7 +140,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="passwordTextField" destination="LN4-Tr-Wsk" id="mjh-i4-Fly"/>
-                        <outlet property="passwordTipLabel" destination="Lfh-08-YXf" id="fQv-yX-bnf"/>
+                        <outlet property="passwordTipLabel" destination="24W-HX-xvl" id="xP9-tK-Lrf"/>
                         <outlet property="registerButton" destination="Nfx-9w-hkE" id="aeb-TA-y7p"/>
                         <outlet property="secondPasswordTextField" destination="w0d-yo-Wmz" id="4hJ-jH-DnD"/>
                         <outlet property="secondPasswordTipLabel" destination="98G-is-AmJ" id="zmz-ut-NEq"/>
