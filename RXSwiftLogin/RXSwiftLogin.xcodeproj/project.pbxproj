@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3B6C179A1F56A07300C65791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C17991F56A07300C65791 /* AppDelegate.swift */; };
-		3B6C179C1F56A07300C65791 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C179B1F56A07300C65791 /* ViewController.swift */; };
 		3B6C179F1F56A07300C65791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C179D1F56A07300C65791 /* Main.storyboard */; };
 		3B6C17A11F56A07300C65791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C17A01F56A07300C65791 /* Assets.xcassets */; };
 		3B6C17A41F56A07300C65791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C17A21F56A07300C65791 /* LaunchScreen.storyboard */; };
-		3BC4D1201F56AC2000556ED1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D11F1F56AC2000556ED1 /* LoginViewController.swift */; };
-		3BC4D1221F56AC2A00556ED1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D1211F56AC2A00556ED1 /* HomeViewController.swift */; };
 		3BC4D1241F56B5A300556ED1 /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D1231F56B5A300556ED1 /* protocol.swift */; };
 		3BC4D1261F56B63900556ED1 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D1251F56B63900556ED1 /* CheckBox.swift */; };
-		3BC4D1281F57A66500556ED1 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D1271F57A66500556ED1 /* RegisterViewModel.swift */; };
 		3BC4D12A1F59037100556ED1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D1291F59037100556ED1 /* Service.swift */; };
+		3BC4D12E1F595A0800556ED1 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D12C1F595A0800556ED1 /* RegisterViewModel.swift */; };
+		3BC4D12F1F595A0800556ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D12D1F595A0800556ED1 /* ViewController.swift */; };
+		3BC4D1321F595A1000556ED1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D1311F595A1000556ED1 /* LoginViewController.swift */; };
+		3BC4D1351F595A1700556ED1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4D1341F595A1700556ED1 /* HomeViewController.swift */; };
 		E1A6A84CE6DAAC394D088DBF /* Pods_RXSwiftLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916CEE66828717D5A60D996 /* Pods_RXSwiftLogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,17 +25,17 @@
 		176AE16B4DD5807D1C0EB772 /* Pods-RXSwiftLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwiftLogin/Pods-RXSwiftLogin.debug.xcconfig"; sourceTree = "<group>"; };
 		3B6C17961F56A07300C65791 /* RXSwiftLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6C17991F56A07300C65791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B6C179B1F56A07300C65791 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B6C179E1F56A07300C65791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B6C17A01F56A07300C65791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B6C17A31F56A07300C65791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B6C17A51F56A07300C65791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BC4D11F1F56AC2000556ED1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		3BC4D1211F56AC2A00556ED1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3BC4D1231F56B5A300556ED1 /* protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
 		3BC4D1251F56B63900556ED1 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
-		3BC4D1271F57A66500556ED1 /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		3BC4D1291F59037100556ED1 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		3BC4D12C1F595A0800556ED1 /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		3BC4D12D1F595A0800556ED1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BC4D1311F595A1000556ED1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3BC4D1341F595A1700556ED1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4214F4FADE83925F15382AF3 /* Pods-RXSwiftLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwiftLogin/Pods-RXSwiftLogin.release.xcconfig"; sourceTree = "<group>"; };
 		7916CEE66828717D5A60D996 /* Pods_RXSwiftLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,12 +83,11 @@
 			isa = PBXGroup;
 			children = (
 				3B6C17991F56A07300C65791 /* AppDelegate.swift */,
-				3B6C179B1F56A07300C65791 /* ViewController.swift */,
-				3BC4D11F1F56AC2000556ED1 /* LoginViewController.swift */,
-				3BC4D1211F56AC2A00556ED1 /* HomeViewController.swift */,
+				3BC4D1331F595A1700556ED1 /* Home */,
+				3BC4D1301F595A1000556ED1 /* Login */,
+				3BC4D12B1F595A0800556ED1 /* Register */,
 				3BC4D1231F56B5A300556ED1 /* protocol.swift */,
 				3BC4D1251F56B63900556ED1 /* CheckBox.swift */,
-				3BC4D1271F57A66500556ED1 /* RegisterViewModel.swift */,
 				3BC4D1291F59037100556ED1 /* Service.swift */,
 				3B6C179D1F56A07300C65791 /* Main.storyboard */,
 				3B6C17A01F56A07300C65791 /* Assets.xcassets */,
@@ -96,6 +95,31 @@
 				3B6C17A51F56A07300C65791 /* Info.plist */,
 			);
 			path = RXSwiftLogin;
+			sourceTree = "<group>";
+		};
+		3BC4D12B1F595A0800556ED1 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4D12C1F595A0800556ED1 /* RegisterViewModel.swift */,
+				3BC4D12D1F595A0800556ED1 /* ViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		3BC4D1301F595A1000556ED1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4D1311F595A1000556ED1 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3BC4D1331F595A1700556ED1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4D1341F595A1700556ED1 /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		E1591C63DF84A356FCA535D2 /* Frameworks */ = {
@@ -230,13 +254,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BC4D1201F56AC2000556ED1 /* LoginViewController.swift in Sources */,
+				3BC4D1321F595A1000556ED1 /* LoginViewController.swift in Sources */,
+				3BC4D12F1F595A0800556ED1 /* ViewController.swift in Sources */,
 				3BC4D12A1F59037100556ED1 /* Service.swift in Sources */,
-				3B6C179C1F56A07300C65791 /* ViewController.swift in Sources */,
-				3BC4D1281F57A66500556ED1 /* RegisterViewModel.swift in Sources */,
+				3BC4D1351F595A1700556ED1 /* HomeViewController.swift in Sources */,
+				3BC4D12E1F595A0800556ED1 /* RegisterViewModel.swift in Sources */,
 				3BC4D1261F56B63900556ED1 /* CheckBox.swift in Sources */,
 				3B6C179A1F56A07300C65791 /* AppDelegate.swift in Sources */,
-				3BC4D1221F56AC2A00556ED1 /* HomeViewController.swift in Sources */,
 				3BC4D1241F56B5A300556ED1 /* protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
