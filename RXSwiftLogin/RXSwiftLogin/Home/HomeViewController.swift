@@ -7,30 +7,41 @@
 //
 
 import UIKit
+import RxSwift
 
 class HomeViewController: UIViewController {
 
+    
+    @IBOutlet weak var searchBar: UISearchBar!
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    let disposeBag = DisposeBag()
+    
+    
+    var searchBarText: Observable<String> {
+        return searchBar.rx
+            .text
+            .orEmpty
+            .throttle(0.3, scheduler: MainScheduler.instance)
+            .distinctUntilChanged()
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let viewModel = HomeViewModel(searchText: searchBarText, service: CheckService.instance)
         
-        // Do any additional setup after loading the view.
+        viewModel.model
+            .drive(tableView.rx.items(cellIdentifier: "cell", cellType: UITableViewCell.self)) { (row, model, cell) in
+                cell.textLabel?.text = model.name
+                cell.detailTextLabel?.text = model.desc
+                cell.imageView?.image = UIImage(named: model.imageString ?? "")
+        }
+            .addDisposableTo(disposeBag)
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
