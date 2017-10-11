@@ -134,14 +134,15 @@ extension CheckService {
 
 // MARK: - 搜索英雄相关
 extension CheckService {
-
+   
+    
     /// 获取英雄数组
     ///
     /// - Returns: 观察
     func getHeros() -> Observable<[Hero]> {
         
         var heros = [Hero]()
-        
+        //利用guard来守护
         guard let filePath = Bundle.main.path(forResource: "heros", ofType: "plist"),
         let heroArray = NSArray(contentsOfFile: filePath) as? Array<[String:String]> else {
             return Observable.just(heros).observeOn(MainScheduler.instance)

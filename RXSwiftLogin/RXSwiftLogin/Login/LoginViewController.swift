@@ -79,7 +79,7 @@ class LoginViewController: UIViewController {
         let alert = UIAlertController(title: "", message: message, preferredStyle: .alert)
         
         let action = UIAlertAction(title: "确定", style: .default) { _ in
-            self.performSegue(withIdentifier: "showHome", sender: self)
+            self.performSegue(withIdentifier: "showHome", sender: self) 
         }
         
         alert.addAction(action)
